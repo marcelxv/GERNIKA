@@ -3,10 +3,11 @@ body {
     height: 100vh;
     display: flex;
     background-color: #222;
+    display: flex;
 }
 
 .banner {
-
+    position: relative;
     background: url(/banner.png) no-repeat center center;
     background-size: contain;
     height: 362px;
@@ -22,3 +23,13 @@ body {
     transform: scale3d(2.1, 2.1, 2.1);
 
 }
+
+.email, a{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+
+    }
