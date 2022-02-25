@@ -20,9 +20,10 @@ a:hover{
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     font-family: 'Fira Sans', sans-serif;
-    padding: 20px;
+    padding: 30px 30px;
+    
 
 }
 
@@ -33,12 +34,13 @@ a:hover{
 
 .principal::after {
     content: "";
+    padding: 50px 20px;
     display: block;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110vh;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
 }
@@ -144,6 +146,7 @@ a:hover{
 }
 
 .rodape {
+    margin-top: 30px;
     display: block;
     background-color: #fff;
     font-family: 'Fira Sans', sans-serif;
